@@ -1,0 +1,42 @@
+# Basic Git Commands
+
+# Initialize a new Git repository
+git init
+
+# Clone a repository
+git clone <repository-url>
+
+# Check the status of the repository
+git status
+
+# Add files to the staging area
+git add <file-name>  # Add a specific file
+git add .            # Add all files
+
+# Commit changes
+git commit -m "Commit message"
+
+# View commit history
+git log
+
+# Create a new branch
+git branch <branch-name>
+
+# Switch to a branch
+git checkout <branch-name>
+
+# Merge a branch into the current branch
+git merge <branch-name>
+
+# Push changes to a remote repository
+git push origin <branch-name>
+
+# Pull changes from a remote repository
+git pull origin <branch-name>
+
+# Stash changes
+git stash
+git stash apply
+
+# Delete a branch
+git branch -d <branch-name>
