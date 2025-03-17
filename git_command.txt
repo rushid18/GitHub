@@ -40,3 +40,4 @@ git stash apply
 
 # Delete a branch
 git branch -d <branch-name>
+this is new changes
